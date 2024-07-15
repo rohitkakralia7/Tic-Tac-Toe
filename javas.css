@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+body{
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    background-color: red;
+    width: 18vmin;
+    border-radius: 5px;
+    border: none;
+    font-size: 8vmin;
+    border-radius: 50%;
+    color: #b0413e;
+}
+.score{
+    width: 150px;
+    height: 70px;
+    color: black;
+}
+.score0{
+    margin-top: 10px;
+    font: 20px;
+}
+.score1{
+    margin-top: 10px;
+    font: 20px;
+}
+#reset{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: white;
+    width: 100%;
+    color: black;
+    border-radius:5px ;
+    border: none;
+}
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius:5px ;
+    border: none;
+}
+#msg-conatiner{
+    height: 100vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+.hide{
+    display: none;
+}
+
+.oColor{
+    color: white;
+}
+.xColor{
+    color: black;
+}
+@media only screen and (max-width: 553px){
+    .container{
+        flex-direction: column;
+        margin-top: 20px;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+}
